@@ -30,7 +30,7 @@
 %\usetheme{Berkeley}
 %\usetheme{Berlin}
 %\usetheme{Boadilla}
-%\usetheme{CambridgeUS}
+\usetheme{CambridgeUS}
 %\usetheme{Copenhagen}
 %\usetheme{Darmstadt}
 %\usetheme{Dresden}
@@ -40,7 +40,7 @@
 %\usetheme{Ilmenau}
 %\usetheme{JuanLesPins}
 %\usetheme{Luebeck}
-\usetheme{Madrid}
+%\usetheme{Madrid}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
 %\usetheme{Montpellier}
@@ -66,7 +66,7 @@
 %\usecolortheme{orchid}
 %\usecolortheme{rose}
 %\usecolortheme{seagull}
-%\usecolortheme{seahorse}
+\usecolortheme{seahorse}
 %\usecolortheme{whale}
 %\usecolortheme{wolverine}
 
@@ -85,7 +85,7 @@
 
 \title[SFC mapping]{A Novel Approach for Service Function Chain (SFC)Mapping with Multiple SFC instances in a Fog-To-Cloud Computing System} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author[A.Zamani]{A.Zamani\\[1mm]{\small Supervised by: Dr. S.Sharifian}} % Your name
+\author[A.Zamani]{A.Zamani\\[1mm]{\small Supervised by: Dr. Sharifian}} % Your name
 \institute[AUT] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 Amirkabir University of Technology \\ % Your institution for the title page
@@ -99,7 +99,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \end{frame}
 
 \begin{frame}
-\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
 \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
@@ -108,14 +108,109 @@ Amirkabir University of Technology \\ % Your institution for the title page
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{Introduction} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
-%------------------------------------------------
-\subsection[IoT]{Internet of Things (IoT)} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
-\subsection[Fog-to-Cloud]{Fog-to-Cloud architecture}
 
+
+\section{Introduction}
+\subsection[IoT]{Internet of Things (IoT)}
+\begin{frame}
+%\frametitle{Introduction}
+\begin{itemize}
+	\item IoT
+	\begin{itemize}
+		\item<1-> {interconnects billions or
+			even trillions of diverse devices}
+		\item<2-> {generate a massive
+			amount of data}
+		\item<3-> {should be transmitted to the cloud for
+			computing}
+	\end{itemize}
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.12]{IoT1}
+	\caption{IoT devices}
+	\label{fig:iot1}
+\end{figure}
+\end{frame}
+\subsection{Cloud computing}
+\begin{frame}
+\begin{itemize}
+	\item Cloud computing
+	\begin{itemize}
+		\item<1-> \color{blue} {cloud offers various benefits such as
+			scalability and elasticity}
+		\item<2-> {consolidation and centralization
+			lead to many network hops}
+		\item<3-> \color{red}{results in high latencies and high bandwidth consumption}
+		
+	\end{itemize}
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.35]{cloud-computing-2}
+	\caption{Cloud computing}
+	\label{fig:cloud-computing-2}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+	\item Healthcare
+\end{itemize}	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{healthcare}
+	\caption{Healthcare}
+	\label{fig:healthcare}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+	\item Augmented reality
+\end{itemize}	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{agmented_R}
+	\caption{Augmented reality}
+	\label{fig:agmentedr}
+\end{figure}
+\end{frame}
+\subsection{Fog computing}
+\begin{frame}
+	\begin{itemize}
+		\item Fog computing
+		\begin{itemize}
+			\item<1-> {offers distributed
+				edge cloud close to the Things}
+		\end{itemize}
+	\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{fog-computing}
+	\label{fig:fog-computing}
+\end{figure}
+
+\end{frame}
+\subsection[Fog-to-Cloud]{Fog-to-Cloud computing system}
+\begin{frame}
+	\begin{itemize}
+	\item Fog-to-Cloud architecture
+	\begin{itemize}
+		\item<1-> {fog and cloud work together}
+		\item<2-> {provide computing, storage, and application services
+			in the IoT domain}
+	\end{itemize}
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.13]{"Fog-to-cloud computing system"}
+	\caption{Fog-to-Cloud computing system}
+	\label{fig:fog-to-cloud-computing-system}
+\end{figure}
+
+\end{frame}
 \subsection[SDN and NFV]{Software Defined Network and network function
 	virtualization}
 \subsection{Related Work}
+
+
 
 \section{System Model}
 
