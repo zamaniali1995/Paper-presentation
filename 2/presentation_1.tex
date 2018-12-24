@@ -113,34 +113,35 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \section{Introduction}
 \subsection[IoT]{Internet of Things (IoT)}
 \begin{frame}
-%\frametitle{Introduction}
+\frametitle{Introduction}
 \begin{itemize}
 	\item IoT
 	\begin{itemize}
-		\item<1-> {interconnects billions or
+		\item {interconnects billions or
 			even trillions of diverse devices}
-		\item<2-> {generate a massive
+		\item {generate a massive
 			amount of data}
-		\item<3-> {should be transmitted to the cloud for
+		\item {should be transmitted to the cloud for
 			computing}
 	\end{itemize}
 \end{itemize}
 \begin{figure}
-	\includegraphics[scale=0.12]{IoT1}
+	\includegraphics[scale=0.1]{IoT1}
 	\caption{IoT devices}
 	\label{fig:iot1}
 \end{figure}
 \end{frame}
 \subsection{Cloud computing}
 \begin{frame}
+\frametitle{Introduction}
 \begin{itemize}
 	\item Cloud computing
 	\begin{itemize}
-		\item<1-> \color{blue} {cloud offers various benefits such as
+		\item \color{blue} {cloud offers various benefits such as
 			scalability and elasticity}
-		\item<2-> {consolidation and centralization
+		\item {consolidation and centralization
 			lead to many network hops}
-		\item<3-> \color{red}{results in high latencies and high bandwidth consumption}
+		\item \color{red}{results in high latencies and high bandwidth consumption}
 		
 	\end{itemize}
 \end{itemize}
@@ -151,6 +152,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \end{figure}
 \end{frame}
 \begin{frame}
+\frametitle{Introduction}
 \begin{itemize}
 	\item Healthcare
 \end{itemize}	
@@ -162,6 +164,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \end{figure}
 \end{frame}
 \begin{frame}
+\frametitle{Introduction}
 \begin{itemize}
 	\item Augmented reality
 \end{itemize}	
@@ -174,6 +177,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \end{frame}
 \subsection{Fog computing}
 \begin{frame}
+\frametitle{Introduction}
 	\begin{itemize}
 		\item Fog computing
 		\begin{itemize}
@@ -193,9 +197,9 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	\begin{itemize}
 	\item Fog-to-Cloud computing system
 	\begin{itemize}
-		\item<1-> {fog and cloud work together}
-		\item<2-> {provide computing, storage, and application servicesin the IoT domain}
-		\item<3-> \color{red}{complex management of such a
+		\item {fog and cloud work together}
+		\item {provide computing, storage, and application servicesin the IoT domain}
+		\item \color{red}{complex management of such a
 			network of distributed fogs}
 			
 	\end{itemize}
@@ -212,7 +216,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	\begin{itemize}
 		\item Software Defined Network(SDN)
 		\begin{itemize}
-			\item<1-> {SDN separates the control and data planes}
+			\item {SDN separates the control and data planes}
 		\end{itemize}
 	\end{itemize}
 \begin{figure}
@@ -227,10 +231,10 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \begin{itemize}
 	\item network function virtualization(NFV)
 	\begin{itemize}
-		\item<1-> {NFV reshapes dedicated hardware functionality}
-		\item<2-> {software modules named virtual network functions (VNFs)}
-		\item<3-> \color{blue}{agile and scalable service placement}
-		\item <4-> \color{blue} {reducing Capital
+		\item {NFV reshapes dedicated hardware functionality}
+		\item {software modules named virtual network functions (VNFs)}
+		\item \color{blue}{agile and scalable service placement}
+		\item \color{blue} {reducing Capital
 			Expenditure (CAPEX) and Operation Expense (OPEX)}
 	\end{itemize}
 \end{itemize}
@@ -245,8 +249,8 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	\begin{itemize}
 		\item {Service Function Chaining(SFC)}	
 		\begin{itemize}
-			\item <1->{specific set of VNFs}
-			\item <2->{joint VNF placement and traffic routing
+			\item{specific set of VNFs}
+			\item{joint VNF placement and traffic routing
 				are called SFC mapping}	
 		\end{itemize}
 	\end{itemize}
@@ -287,68 +291,77 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	
 \end{frame}
 \begin{frame}
+\frametitle{Related Work}
 \begin{itemize}{}	
-	\item <1-> { do not
+	\item{ do not
 		consider SFC mapping in the F2C architecture which is critical in the IoT domain}
-	\item <2-> {do not consider the Service Level Agreement(SLA) as a constraint, while in our formulation it is considered}
-	\item <3-> {we propose an ILP solution that provides the
+	\item{do not consider the Service Level Agreement(SLA) as a constraint, while in our formulation it is considered}
+	\item{we propose an ILP solution that provides the
 		exact solution for SFC mapping in the F2C architecture}
-	\item <4-> {in order to minimize total latency of network}
+	\item{in order to minimize total latency of network}
 	\begin{itemize}
-		\item <5-> {the
+		\item {the
 			number of instances for each SFC and replicas for each VNF are
 			considered}
 	\end{itemize}
 \end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{related}
+	\label{fig:related}
+\end{figure}
+
 \end{frame}
 \section{System Model}
 \subsection{Problem statement}
 \begin{frame}
+\frametitle{System Model}
 \begin{itemize}
-	\item <1-> {Problem statement}
+	\item  {Problem statement}
 \begin{itemize}
-	\item <1-> {network topology}
-	\item <2-> {capacity and latency of links}
-	\item <3-> {computing resources at the fogs and cloud nodes}
-	\item <4-> {traffic
+	\item {network topology}
+	\item  {capacity and latency of links}
+	\item  {computing resources at the fogs and cloud nodes}
+	\item  {traffic
 		flows between two pairs of fog or fogs and cloud requiring a
 		specific SFC}
-	\item <5-> {users’ SLA}	
-	\item <6-> {instances’ number}
-	\item <7-> \color{blue}{placement of VNFs}
-	\item <8-> \color{blue}{corresponding traffic routing}
-	\item <9-> \color{blue}{users’
+	\item  {users’ SLA}	
+	\item  {instances’ number}
+	\item  \color{blue}{placement of VNFs}
+	\item  \color{blue}{corresponding traffic routing}
+	\item \color{blue}{users’
 		assignment to the SFC instances}
-	\item <10-> \color{red}{minimize overall latency of
+	\item  \color{red}{minimize overall latency of
 		network}
 \end{itemize}
 \end{itemize}
 \begin{figure}	
-	\includegraphics[width=0.3\linewidth]{problem_bullseye}
+	\includegraphics[width=0.2\linewidth]{problem_bullseye}
 	\label{fig:problembullseye}
 \end{figure}
 \end{frame}
 
 \subsection{Modeling}
 \begin{frame}
+\frametitle{System Model}
 	\begin{itemize}
-		\item <1-> {Service Function Chaining (SFC)
+		\item  {Service Function Chaining (SFC)
 	\begin{equation}
 	[SFC\: c]\quad f_{\sigma_{1}(c)} \to f_{\sigma_{2}(c)} \to \dots \to f_{\sigma_{n_c}(c)}
 	\end{equation}}
-		\item <2-> {generate all configurations of each SFC $c$  $\to$ $\hat{\Gamma}_c$}
-		\item <3-> {aggregation of all configuration of SFCs $\to$ $\hat{\Gamma}$}
-		\item <4-> {Each configuration ($\hat{\gamma}$) of SFC c is characterized by:}
+		\item {generate all configurations of each SFC $c$  $\to$ $\hat{\Gamma}_c$}
+		\item  {aggregation of all configuration of SFCs $\to$ $\hat{\Gamma}$}
+		\item  {Each configuration ($\hat{\gamma}$) of SFC c is characterized by:}
 		\begin{itemize}
-			\item <4-> {Location of VNFs $\to$ $a^{\hat{\gamma}}_{vi}$}
-			\item <5-> {Connectivity of located VNFs $\to$ $b^{\hat{\gamma}}_{i\ell}$}
-			\item <6-> {User assignment $\to$ $\delta^{\hat{\gamma}}_{sd}$}
+			\item  {Location of VNFs $\to$ $a^{\hat{\gamma}}_{vi}$}
+			\item  {Connectivity of located VNFs $\to$ $b^{\hat{\gamma}}_{i\ell}$}
+			\item  {User assignment $\to$ $\delta^{\hat{\gamma}}_{sd}$}
 		\end{itemize}
 	\end{itemize}
 		
 \begin{figure}
 	\centering
-	\includegraphics[width=0.3\linewidth]{modeling}
+	\includegraphics[width=0.2\linewidth]{modeling}
 	\caption{}
 	\label{fig:modeling}
 \end{figure}
@@ -385,21 +398,18 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \subsection{Constrants}
 \begin{frame}
 	\frametitle{Constrants}
-	\onslide<+->{
 	\begin{equation}
 		\sum_{\hat{\gamma} \in \hat{\Gamma}_c} \leq I_c \quad c \in C	
-	\end{equation}}
-	\onslide<+->{
+	\end{equation}
 	\begin{equation}
 		\sum_{v \in V}x_{vf} \leq R_f  \quad f \in F
-	\end{equation}}
-	\onslide<+->{
+	\end{equation}
 	\begin{equation}
 	\begin{split}
 		\sum_{c \in C} \sum_{\hat{\gamma}\in \hat{\Gamma}_c}\sum_{sd \in SD}D_{sd}^{c} \delta^{\hat{\gamma}}_{sd}*\\
 		(\sum_{f \in F} \sum_{i=1}^{n_c}T_{fi}^c n_f^{CORE} a_{vi}^{\hat{\gamma}})z_{\hat{\gamma}} \leq n_v^{FOGCORE}\quad v \in V_{FOG}
     \end{split}
-	\end{equation}}
+	\end{equation}
 	
 \begin{figure}
 	\centering
@@ -479,6 +489,45 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	\caption{The overall end-to-end latency of network vs. number of instances.}
 	\label{fig:result}
 \end{figure}
+\end{frame}
+\section{Conclution}
+\begin{frame}
+\frametitle{Conclution}
+	\begin{itemize}
+		\item {multi Service
+		Function Chain (SFC) mapping}
+		\item {multiple SFC instances}
+		\item {fog-to-cloud architecture}
+		\item {formulate our problem as an Integer Linear
+			Program}
+		\item {minimize the overall end-to-end latency}
+		\item {our model can achieve the least overall end-to-end latency
+			when the number of instances increases}
+	\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{conclution}
+	\caption{}
+	\label{fig:conclution}
+\end{figure}
+
+\end{frame}
+\begin{frame}
+\frametitle{References}
+[7] Drãxler, S., H. Karl, and Z.Á. Mann. Joint Optimization of Scaling and
+Placement of Virtual Network Services. in 2017 17th IEEE/ACM
+International Symposium on Cluster, Cloud and Grid Computing
+(CCGRID). 2017.\\
+$[8]$ Huin, N., B. Jaumard, and F. Giroire, Optimal Network Service Chain
+Provisioning. IEEE/ACM Transactions on Networking, 2018. 26(3): p.
+1320-1333.\\
+$[9]$ Masri, W., et al. Minimizing delay in IoT systems through collaborative
+fog-to-fog (F2F) communication. in 2017 Ninth International
+Conference on Ubiquitous and Future Networks (ICUFN). 2017\\
+$[10]$ Fan, J., et al. Deadline-Aware Task Scheduling in a Tiered IoT.Infrastructure. in GLOBECOM 2017 - 2017 IEEE Global Communications Conference. 2017.\\
+$[11]$ Gupta, A., et al. Service Chain (SC) Mapping with Multiple SC
+Instances in a Wide Area Network. in GLOBECOM 2017 - 2017 IEEE
+Global Communications Conference. 2017.
 \end{frame}
 \begin{frame}
 	

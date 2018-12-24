@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.17)  25 DEC 2018 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.17)  25 DEC 2018 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,238 +856,132 @@ Dictionary: translator-theorem-dictionary, Language: English
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation_1.toc) [2
 
 ]
-<IoT1.jpg, id=159, 1575.8875pt x 1311.90125pt>
+<IoT1.jpg, id=165, 1575.8875pt x 1311.90125pt>
 File: IoT1.jpg Graphic file (type jpg)
 <use IoT1.jpg>
 Package pdftex.def Info: IoT1.jpg  used on input line 133.
-(pdftex.def)             Requested size: 189.09834pt x 157.42136pt.
+(pdftex.def)             Requested size: 157.59798pt x 131.1978pt.
 
-Overfull \vbox (5.49686pt too high) detected at line 133
+Overfull \vbox (9.68271pt too high) detected at line 133
  []
 
 [3
 
  <./IoT1.jpg>]
-File: IoT1.jpg Graphic file (type jpg)
-<use IoT1.jpg>
-Package pdftex.def Info: IoT1.jpg  used on input line 133.
-(pdftex.def)             Requested size: 189.09834pt x 157.42136pt.
+<cloud-computing-2.jpg, id=196, 670.505pt x 353.32pt>
+File: cloud-computing-2.jpg Graphic file (type jpg)
+<use cloud-computing-2.jpg>
+Package pdftex.def Info: cloud-computing-2.jpg  used on input line 153.
+(pdftex.def)             Requested size: 234.68027pt x 123.66385pt.
 
-Overfull \vbox (5.49686pt too high) detected at line 133
+Overfull \vbox (2.14876pt too high) detected at line 153
  []
 
 [4
 
-]
-File: IoT1.jpg Graphic file (type jpg)
-<use IoT1.jpg>
-Package pdftex.def Info: IoT1.jpg  used on input line 133.
-(pdftex.def)             Requested size: 189.09834pt x 157.42136pt.
-
-Overfull \vbox (5.49686pt too high) detected at line 133
- []
-
-[5
-
-]
-<cloud-computing-2.jpg, id=246, 670.505pt x 353.32pt>
-File: cloud-computing-2.jpg Graphic file (type jpg)
-<use cloud-computing-2.jpg>
-Package pdftex.def Info: cloud-computing-2.jpg  used on input line 152.
-(pdftex.def)             Requested size: 234.68027pt x 123.66385pt.
- [6
-
  <./cloud-computing-2.jpg>]
-File: cloud-computing-2.jpg Graphic file (type jpg)
-<use cloud-computing-2.jpg>
-Package pdftex.def Info: cloud-computing-2.jpg  used on input line 152.
-(pdftex.def)             Requested size: 234.68027pt x 123.66385pt.
- [7
-
-]
-File: cloud-computing-2.jpg Graphic file (type jpg)
-<use cloud-computing-2.jpg>
-Package pdftex.def Info: cloud-computing-2.jpg  used on input line 152.
-(pdftex.def)             Requested size: 234.68027pt x 123.66385pt.
- [8
-
-]
-<healthcare.png, id=335, 451.6875pt x 201.00093pt>
+<healthcare.png, id=227, 451.6875pt x 201.00093pt>
 File: healthcare.png Graphic file (type png)
 <use healthcare.png>
-Package pdftex.def Info: healthcare.png  used on input line 163.
+Package pdftex.def Info: healthcare.png  used on input line 165.
 (pdftex.def)             Requested size: 239.60567pt x 106.62505pt.
- [9
+ [5
 
  <./healthcare.png>]
-<agmented_R.jpg, id=364, 910.3611pt x 512.1534pt>
+<agmented_R.jpg, id=256, 910.3611pt x 512.1534pt>
 File: agmented_R.jpg Graphic file (type jpg)
 <use agmented_R.jpg>
-Package pdftex.def Info: agmented_R.jpg  used on input line 174.
+Package pdftex.def Info: agmented_R.jpg  used on input line 177.
 (pdftex.def)             Requested size: 239.60567pt x 134.79785pt.
- [10
+ [6
 
  <./agmented_R.jpg>]
-<fog-computing.png, id=394, 360.98865pt x 228.73454pt>
+<fog-computing.png, id=286, 360.98865pt x 228.73454pt>
 File: fog-computing.png Graphic file (type png)
 <use fog-computing.png>
-Package pdftex.def Info: fog-computing.png  used on input line 190.
+Package pdftex.def Info: fog-computing.png  used on input line 194.
 (pdftex.def)             Requested size: 239.60567pt x 151.82036pt.
- [11
+
+[7
 
  <./fog-computing.png>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Fog-to-cloud computing system.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<"Fog-to-cloud computing system".pdf, id=425, 1561.835pt x 1199.48125pt>
+<"Fog-to-cloud computing system".pdf, id=318, 1561.835pt x 1199.48125pt>
 File: "Fog-to-cloud computing system".pdf Graphic file (type pdf)
 <use "Fog-to-cloud computing system".pdf>
 Package pdftex.def Info: "Fog-to-cloud computing system".pdf  used on input lin
-e 209.
+e 213.
 (pdftex.def)             Requested size: 203.04567pt x 155.93803pt.
 
-Overfull \vbox (4.01353pt too high) detected at line 209
+Overfull \vbox (4.01353pt too high) detected at line 213
  []
 
-[12
+[8
 
  <./Fog-to-cloud computing system.pdf>]
-File: "Fog-to-cloud computing system".pdf Graphic file (type pdf)
-<use "Fog-to-cloud computing system".pdf>
-Package pdftex.def Info: "Fog-to-cloud computing system".pdf  used on input lin
-e 209.
-(pdftex.def)             Requested size: 203.04567pt x 155.93803pt.
-
-Overfull \vbox (4.01353pt too high) detected at line 209
- []
-
-[13
-
-]
-File: "Fog-to-cloud computing system".pdf Graphic file (type pdf)
-<use "Fog-to-cloud computing system".pdf>
-Package pdftex.def Info: "Fog-to-cloud computing system".pdf  used on input lin
-e 209.
-(pdftex.def)             Requested size: 203.04567pt x 155.93803pt.
-
-Overfull \vbox (4.01353pt too high) detected at line 209
- []
-
-[14
-
-]
-<sdn2.jpg, id=542, 391.4625pt x 244.21237pt>
+<sdn2.jpg, id=378, 391.4625pt x 244.21237pt>
 File: sdn2.jpg Graphic file (type jpg)
 <use sdn2.jpg>
-Package pdftex.def Info: sdn2.jpg  used on input line 225.
+Package pdftex.def Info: sdn2.jpg  used on input line 229.
 (pdftex.def)             Requested size: 239.60567pt x 149.47983pt.
- [15
+ [9
 
  <./sdn2.jpg>]
 <Architecture-of-a-software-based-network-with-support-for-network-virtualizati
-on-NFV.png, id=573, 853.1875pt x 534.99875pt>
+on-NFV.png, id=409, 853.1875pt x 534.99875pt>
 File: Architecture-of-a-software-based-network-with-support-for-network-virtual
 ization-NFV.png Graphic file (type png)
 <use Architecture-of-a-software-based-network-with-support-for-network-virtuali
 zation-NFV.png>
 Package pdftex.def Info: Architecture-of-a-software-based-network-with-support-
-for-network-virtualization-NFV.png  used on input line 243.
+for-network-virtualization-NFV.png  used on input line 247.
 (pdftex.def)             Requested size: 212.2214pt x 133.0718pt.
 
-Overfull \vbox (5.70285pt too high) detected at line 243
+Overfull \vbox (5.70285pt too high) detected at line 247
  []
 
-[16
+[10
 
  <./Architecture-of-a-software-based-network-with-support-for-network-virtualiz
 ation-NFV.png>]
-File: Architecture-of-a-software-based-network-with-support-for-network-virtual
-ization-NFV.png Graphic file (type png)
-<use Architecture-of-a-software-based-network-with-support-for-network-virtuali
-zation-NFV.png>
-Package pdftex.def Info: Architecture-of-a-software-based-network-with-support-
-for-network-virtualization-NFV.png  used on input line 243.
-(pdftex.def)             Requested size: 212.2214pt x 133.0718pt.
-
-Overfull \vbox (5.70285pt too high) detected at line 243
- []
-
-[17
-
-]
-File: Architecture-of-a-software-based-network-with-support-for-network-virtual
-ization-NFV.png Graphic file (type png)
-<use Architecture-of-a-software-based-network-with-support-for-network-virtuali
-zation-NFV.png>
-Package pdftex.def Info: Architecture-of-a-software-based-network-with-support-
-for-network-virtualization-NFV.png  used on input line 243.
-(pdftex.def)             Requested size: 212.2214pt x 133.0718pt.
-
-Overfull \vbox (5.70285pt too high) detected at line 243
- []
-
-[18
-
-]
-File: Architecture-of-a-software-based-network-with-support-for-network-virtual
-ization-NFV.png Graphic file (type png)
-<use Architecture-of-a-software-based-network-with-support-for-network-virtuali
-zation-NFV.png>
-Package pdftex.def Info: Architecture-of-a-software-based-network-with-support-
-for-network-virtualization-NFV.png  used on input line 243.
-(pdftex.def)             Requested size: 212.2214pt x 133.0718pt.
-
-Overfull \vbox (5.70285pt too high) detected at line 243
- []
-
-[19
-
-]
-<sfcexample.png, id=690, 642.4pt x 271.0125pt>
+<sfcexample.png, id=439, 642.4pt x 271.0125pt>
 File: sfcexample.png Graphic file (type png)
 <use sfcexample.png>
-Package pdftex.def Info: sfcexample.png  used on input line 259.
+Package pdftex.def Info: sfcexample.png  used on input line 263.
 (pdftex.def)             Requested size: 308.06367pt x 129.96872pt.
- [20
+ [11
 
  <./sfcexample.png>]
-File: sfcexample.png Graphic file (type png)
-<use sfcexample.png>
-Package pdftex.def Info: sfcexample.png  used on input line 259.
-(pdftex.def)             Requested size: 308.06367pt x 129.96872pt.
- [21
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 288.
+LaTeX Font Info:    Try loading font information for U+msa on input line 292.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 288.
+LaTeX Font Info:    Try loading font information for U+msb on input line 292.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 288.
+line 292.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[22
-
-] [23
-
-] [24
-
-] [25
-
-] [26
-
-] [27
+[12
 
 ]
+<related.png, id=498, 783.92876pt x 548.0475pt>
+File: related.png Graphic file (type png)
+<use related.png>
+Package pdftex.def Info: related.png  used on input line 314.
+(pdftex.def)             Requested size: 102.68962pt x 71.78387pt.
+ [13
+
+ <./related.png (PNG copy)>]
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
@@ -1097,316 +991,113 @@ Missing character: There is no ô in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
-<problem_bullseye.jpg, id=918, 1806.75pt x 1204.5pt>
+<problem_bullseye.jpg, id=528, 1806.75pt x 1204.5pt>
 File: problem_bullseye.jpg Graphic file (type jpg)
 <use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [28
+Package pdftex.def Info: problem_bullseye.jpg  used on input line 342.
+(pdftex.def)             Requested size: 68.45801pt x 45.63547pt.
+ [14
 
  <./problem_bullseye.jpg>]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [29
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [30
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [31
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
-
-[32
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [33
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [34
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [35
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [36
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-File: problem_bullseye.jpg Graphic file (type jpg)
-<use problem_bullseye.jpg>
-Package pdftex.def Info: problem_bullseye.jpg  used on input line 330.
-(pdftex.def)             Requested size: 102.68962pt x 68.44402pt.
- [37
-
-]
-<modeling.jpg, id=1204, 853.1875pt x 998.73125pt>
+<modeling.jpg, id=558, 853.1875pt x 998.73125pt>
 File: modeling.jpg Graphic file (type jpg)
 <use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
+Package pdftex.def Info: modeling.jpg  used on input line 368.
+(pdftex.def)             Requested size: 68.45801pt x 80.12872pt.
 
-Overfull \vbox (40.41708pt too high) detected at line 355
+Overfull \vbox (30.76213pt too high) detected at line 368
  []
 
-[38
+[15
 
  <./modeling.jpg>]
-File: modeling.jpg Graphic file (type jpg)
-<use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
-
-Overfull \vbox (40.41708pt too high) detected at line 355
- []
-
-[39
-
-]
-File: modeling.jpg Graphic file (type jpg)
-<use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
-
-Overfull \vbox (40.41708pt too high) detected at line 355
- []
-
-[40
-
-]
-File: modeling.jpg Graphic file (type jpg)
-<use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
-
-Overfull \vbox (40.41708pt too high) detected at line 355
- []
-
-[41
-
-]
-File: modeling.jpg Graphic file (type jpg)
-<use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
-
-Overfull \vbox (40.41708pt too high) detected at line 355
- []
-
-[42
-
-]
-File: modeling.jpg Graphic file (type jpg)
-<use modeling.jpg>
-Package pdftex.def Info: modeling.jpg  used on input line 355.
-(pdftex.def)             Requested size: 102.68962pt x 120.19308pt.
-
-Overfull \vbox (40.41708pt too high) detected at line 355
- []
-
-[43
-
-]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Copy of Network Diagram Template.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<"Copy of Network Diagram Template".pdf, id=1383, 3884.5125pt x 1796.7125pt>
+<"Copy of Network Diagram Template".pdf, id=595, 3884.5125pt x 1796.7125pt>
 File: "Copy of Network Diagram Template".pdf Graphic file (type pdf)
 <use "Copy of Network Diagram Template".pdf>
 Package pdftex.def Info: "Copy of Network Diagram Template".pdf  used on input 
-line 369.
+line 382.
 (pdftex.def)             Requested size: 308.06367pt x 142.47882pt.
-[44
+[16
 
  <./Copy of Network Diagram Template.pdf>]
-<objective.jpg, id=1495, 2910.875pt x 2910.875pt>
+<objective.jpg, id=707, 2910.875pt x 2910.875pt>
 File: objective.jpg Graphic file (type jpg)
 <use objective.jpg>
-Package pdftex.def Info: objective.jpg  used on input line 384.
+Package pdftex.def Info: objective.jpg  used on input line 397.
 (pdftex.def)             Requested size: 102.68962pt x 102.6461pt.
- [45
+ [17
 
  <./objective.jpg>]
-<constraints.jpg, id=1526, 1204.5pt x 502.87875pt>
+<constraints.jpg, id=738, 1204.5pt x 502.87875pt>
 File: constraints.jpg Graphic file (type jpg)
 <use constraints.jpg>
-Package pdftex.def Info: constraints.jpg  used on input line 409.
+Package pdftex.def Info: constraints.jpg  used on input line 419.
 (pdftex.def)             Requested size: 136.91603pt x 57.15842pt.
 
-Overfull \vbox (6.43044pt too high) detected at line 409
+Overfull \vbox (2.32797pt too high) detected at line 419
  []
 
-[46
+[18
 
- <./constraints.jpg>]
-File: constraints.jpg Graphic file (type jpg)
-<use constraints.jpg>
-Package pdftex.def Info: constraints.jpg  used on input line 409.
-(pdftex.def)             Requested size: 136.91603pt x 57.15842pt.
-
-Overfull \vbox (6.43044pt too high) detected at line 409
- []
-
-[47
+ <./constraints.jpg>] [19
 
 ]
-File: constraints.jpg Graphic file (type jpg)
-<use constraints.jpg>
-Package pdftex.def Info: constraints.jpg  used on input line 409.
-(pdftex.def)             Requested size: 136.91603pt x 57.15842pt.
-
-Overfull \vbox (6.43044pt too high) detected at line 409
- []
-
-[48
-
-] [49
-
-]
-<constraints3.jpeg, id=1642, 669.50125pt x 481.8pt>
+<constraints3.jpeg, id=797, 669.50125pt x 481.8pt>
 File: constraints3.jpeg Graphic file (type jpg)
 <use constraints3.jpeg>
-Package pdftex.def Info: constraints3.jpeg  used on input line 448.
+Package pdftex.def Info: constraints3.jpeg  used on input line 458.
 (pdftex.def)             Requested size: 102.68962pt x 73.89894pt.
- [50
+ [20
 
  <./constraints3.jpeg>]
-<results.png, id=1672, 2401.97375pt x 1697.34125pt>
+<results.png, id=827, 2401.97375pt x 1697.34125pt>
 File: results.png Graphic file (type png)
 <use results.png>
-Package pdftex.def Info: results.png  used on input line 472.
+Package pdftex.def Info: results.png  used on input line 482.
 (pdftex.def)             Requested size: 205.37926pt x 145.11382pt.
 
-Overfull \vbox (37.33572pt too high) detected at line 472
+Overfull \vbox (37.33572pt too high) detected at line 482
  []
 
-[51
+[21
 
  <./results.png>]
-<Result.png, id=1702, 356.83313pt x 276.28218pt>
+<Result.png, id=857, 356.83313pt x 276.28218pt>
 File: Result.png Graphic file (type png)
 <use Result.png>
-Package pdftex.def Info: Result.png  used on input line 482.
+Package pdftex.def Info: Result.png  used on input line 492.
 (pdftex.def)             Requested size: 205.37926pt x 159.01698pt.
- [52
+ [22
 
  <./Result.png>]
-<thanks.jpg, id=1730, 721.69624pt x 541.02126pt>
+<conclution.jpeg, id=885, 291.0875pt x 174.6525pt>
+File: conclution.jpeg Graphic file (type jpg)
+<use conclution.jpeg>
+Package pdftex.def Info: conclution.jpeg  used on input line 514.
+(pdftex.def)             Requested size: 239.60567pt x 143.76762pt.
+
+Overfull \vbox (67.50813pt too high) detected at line 514
+ []
+
+[23
+
+ <./conclution.jpeg>]
+Missing character: There is no √ in font cmss10!
+Missing character: There is no £ in font cmss10!
+Missing character: There is no √ in font cmss10!
+Missing character: There is no Å in font cmss10!
+ [24
+
+]
+<thanks.jpg, id=941, 721.69624pt x 541.02126pt>
 File: thanks.jpg Graphic file (type jpg)
 <use thanks.jpg>
-Package pdftex.def Info: thanks.jpg  used on input line 490.
+Package pdftex.def Info: thanks.jpg  used on input line 539.
 (pdftex.def)             Requested size: 239.60567pt x 179.619pt.
- [53
+ [25
 
  <./thanks.jpg>]
 \tf@nav=\write6
@@ -1418,23 +1109,22 @@ Package pdftex.def Info: thanks.jpg  used on input line 490.
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 491.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 491.
-
-(./presentation_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 491.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 491.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
+ (./presentation_1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
-(rerunfilecheck)             Checksum: D17A56B600902467975DF2FD1ADB93BF;854.
+(rerunfilecheck)             Checksum: 770175EBA72914027840CFCC3AB56F15;897.
  ) 
 Here is how much of TeX's memory you used:
- 17469 strings out of 492982
- 333216 string characters out of 6134895
- 402036 words of memory out of 5000000
- 20484 multiletter control sequences out of 15000+600000
+ 17434 strings out of 492982
+ 332947 string characters out of 6134895
+ 401528 words of memory out of 5000000
+ 20500 multiletter control sequences out of 15000+600000
  14478 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,21n,62p,781b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,21n,62p,781b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -1448,10 +1138,10 @@ onts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 >
-Output written on presentation_1.pdf (53 pages, 6848546 bytes).
+Output written on presentation_1.pdf (25 pages, 6976319 bytes).
 PDF statistics:
- 1834 PDF objects out of 2073 (max. 8388607)
- 1704 compressed objects within 18 object streams
- 138 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1034 PDF objects out of 1200 (max. 8388607)
+ 938 compressed objects within 10 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

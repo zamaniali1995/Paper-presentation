@@ -1,13 +1,14 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Internet of Things (IoT)}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Cloud computing}{6}{0}{1}
-\beamer@subsectionintoc {1}{3}{Fog computing}{11}{0}{1}
-\beamer@subsectionintoc {1}{4}{Fog-to-Cloud computing system}{12}{0}{1}
-\beamer@subsectionintoc {1}{5}{Software Defined Network and network function virtualization}{15}{0}{1}
-\beamer@subsectionintoc {1}{6}{Related Work}{22}{0}{1}
-\beamer@sectionintoc {2}{System Model}{28}{0}{2}
-\beamer@subsectionintoc {2}{1}{Problem statement}{28}{0}{2}
-\beamer@subsectionintoc {2}{2}{Modeling}{38}{0}{2}
-\beamer@subsectionintoc {2}{3}{Objective function}{45}{0}{2}
-\beamer@subsectionintoc {2}{4}{Constrants}{46}{0}{2}
-\beamer@sectionintoc {3}{Numeric Results}{51}{0}{3}
+\beamer@subsectionintoc {1}{2}{Cloud computing}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Fog computing}{7}{0}{1}
+\beamer@subsectionintoc {1}{4}{Fog-to-Cloud computing system}{8}{0}{1}
+\beamer@subsectionintoc {1}{5}{Software Defined Network and network function virtualization}{9}{0}{1}
+\beamer@subsectionintoc {1}{6}{Related Work}{12}{0}{1}
+\beamer@sectionintoc {2}{System Model}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Problem statement}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Modeling}{15}{0}{2}
+\beamer@subsectionintoc {2}{3}{Objective function}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{Constrants}{18}{0}{2}
+\beamer@sectionintoc {3}{Numeric Results}{21}{0}{3}
+\beamer@sectionintoc {4}{Conclution}{23}{0}{4}
