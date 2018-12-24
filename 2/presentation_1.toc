@@ -8,7 +8,6 @@
 \beamer@sectionintoc {2}{System Model}{28}{0}{2}
 \beamer@subsectionintoc {2}{1}{Problem statement}{28}{0}{2}
 \beamer@subsectionintoc {2}{2}{Modeling}{38}{0}{2}
-\beamer@subsectionintoc {2}{3}{Objective function}{42}{0}{2}
-\beamer@subsectionintoc {2}{4}{Constrants}{42}{0}{2}
-\beamer@sectionintoc {3}{Numeric Results}{42}{0}{3}
-\beamer@sectionintoc {4}{Second Section}{46}{0}{4}
+\beamer@subsectionintoc {2}{3}{Objective function}{45}{0}{2}
+\beamer@subsectionintoc {2}{4}{Constrants}{46}{0}{2}
+\beamer@sectionintoc {3}{Numeric Results}{51}{0}{3}

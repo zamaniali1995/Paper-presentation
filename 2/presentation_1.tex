@@ -75,7 +75,7 @@
 
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
-
+\usepackage{amsmath}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
@@ -341,152 +341,151 @@ Amirkabir University of Technology \\ % Your institution for the title page
 		\item <4-> {Each configuration ($\hat{\gamma}$) of SFC c is characterized by:}
 		\begin{itemize}
 			\item <4-> {Location of VNFs $\to$ $a^{\hat{\gamma}}_{vi}$}
+			\item <5-> {Connectivity of located VNFs $\to$ $b^{\hat{\gamma}}_{i\ell}$}
+			\item <6-> {User assignment $\to$ $\delta^{\hat{\gamma}}_{sd}$}
 		\end{itemize}
 	\end{itemize}
 		
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{modeling}
+	\caption{}
+	\label{fig:modeling}
+\end{figure}
+\end{frame}
+\begin{frame}
+	\frametitle{Configuration}
+	$f_{\sigma_{1}(c_1)} \to f_{\sigma_{2}(c_1)}  \to f_{\sigma_{3}(c_1)}\quad (f_{\sigma_{1}(c_1)}=f_1,\quad f_{\sigma_{2}(c_1)=f_5},\quad f_{\sigma_{3}(c_1)}=f_8)$
+	
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{"Copy of Network Diagram Template"}
+	\caption{
+		Three configurations
+	}
+	\label{fig:copy-of-network-diagram-template}
+\end{figure}
 \end{frame}
 \subsection{Objective function}
-
+\begin{frame}
+	\frametitle{Objective function}
+	\begin{equation}
+	\begin{split}
+		min. \sum_{c\in C}\sum_{\hat{\gamma} \in \hat{\Gamma}_c} ( \sum_{sd \in SD} \sum_{\ell \in L} \sum_{i=1}^{n_c-1} b_{i \ell}^{\hat{\gamma}} \delta_{sd}^{\hat{\gamma}} delay_\ell)z_{\hat{\gamma}}+\\
+		\sum_{c \in C} \sum_{\ell \in L} \sum_{sd \in SD} delay_\ell (y_\ell^{f_1(c),sd}+y_\ell^{f_{n_c}(c),sd})
+		\end{split}
+	\end{equation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{objective}
+	\label{fig:objective}
+\end{figure}	
+\end{frame}
 \subsection{Constrants}
+\begin{frame}
+	\frametitle{Constrants}
+	\onslide<+->{
+	\begin{equation}
+		\sum_{\hat{\gamma} \in \hat{\Gamma}_c} \leq I_c \quad c \in C	
+	\end{equation}}
+	\onslide<+->{
+	\begin{equation}
+		\sum_{v \in V}x_{vf} \leq R_f  \quad f \in F
+	\end{equation}}
+	\onslide<+->{
+	\begin{equation}
+	\begin{split}
+		\sum_{c \in C} \sum_{\hat{\gamma}\in \hat{\Gamma}_c}\sum_{sd \in SD}D_{sd}^{c} \delta^{\hat{\gamma}}_{sd}*\\
+		(\sum_{f \in F} \sum_{i=1}^{n_c}T_{fi}^c n_f^{CORE} a_{vi}^{\hat{\gamma}})z_{\hat{\gamma}} \leq n_v^{FOGCORE}\quad v \in V_{FOG}
+    \end{split}
+	\end{equation}}
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{constraints}
+	\label{fig:constraints}
+\end{figure}
+\end{frame}
+\begin{frame}
+	\frametitle{Constrants}
+	\onslide<+->{
+		\begin{equation}
+		\begin{split}
+		\sum_{c \in C} \sum_{\hat{\gamma}\in \hat{\Gamma}_c}\sum_{sd \in SD}D_{sd}^{c} \delta^{\hat{\gamma}}_{sd}*\\
+		(\sum_{f \in F} \sum_{i=1}^{n_c}T_{fi}^c n_f^{CORE} a_{vi}^{\hat{\gamma}})z_{\hat{\gamma}} \leq n_v^{CLOUDCORE}\quad v \in V_{CLOUD}
+		\end{split}
+		\end{equation}}
+	%\onslide<+->{
+		\begin{equation}
+		\begin{split}
+		\sum_{c \in C} \sum_{\hat{\gamma}\in \hat{\Gamma}_c}\sum_{sd \in SD}D_{sd}^{c}*\\
+		(y_\ell^{f_1(c),sd}+y_\ell^{f_{n_c(c),sd}}+\sum_{\hat{\gamma \in \hat{\Gamma}_c}} \delta_{sd}^{\hat{\gamma}}z_{\hat{\gamma}}\sum_{i=1}^{n_cb-1b_{i \ell}^{\hat{\gamma}}}) \leq CAP_\ell
+		\end{split}
+		\end{equation}
+%	}
 
+\end{frame}
+\begin{frame}
+	\begin{equation}
+	\begin{split}
+	\sum_{\hat{\gamma} \in \hat{\Gamma}_c}\sum_{\ell \in L}delay_\ell*\\
+	(y_\ell^{f_1(c),sd}+y_\ell^{f_{n_c(c),sd}}+\\
+	\sum_{\hat{\gamma} \in \hat{\gamma}_c}\delta_{sd}^{\hat{\gamma}}z_{\hat{\gamma}}\sum_{i=1}^{n_c-1}b_{i\ell}^{\hat{\gamma}}\leq SLA_{sd}^c \quad c \in C , sd \in SD
+	\end{split}
+	\end{equation}
+		\begin{equation}
+	\begin{split}
+	\sum_{\hat{\gamma} \in \hat{\Gamma}_c}\delta_{sd}^{\hat{\gamma}}z_{\hat{\gamma}}=1\quad c \in C , sd \in SD:D_{sd}^c>0
+	\end{split}
+	\end{equation}
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{constraints3}
+	\label{fig:constraints3}
+\end{figure}
+\end{frame}
 \section{Numeric Results}
 \begin{frame}
-\frametitle{Paragraphs of Text}
-
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Bullet Points}
+\frametitle{Numeric Results}
 \begin{itemize}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
-\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-\item Nam cursus est eget velit posuere pellentesque
-\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
-\end{itemize}
+	\item {10 node pairs}
+	\item {each VNF uses one core to run}
+	\item {Each traffic	flow is 1Gbps} 
+\end{itemize}	
+	\begin{table}
+		\begin{tabular}{|c|c|}
+			\toprule
+			\textbf{Service Chain} & \textbf{Chained VNFs}\\
+			\midrule
+			Online Gaming&NAT-FW-VOC-WOC-IDPS\\
+			\hline
+		\end{tabular}
+	\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{results}
+	\label{fig:results}
+\end{figure}
 \end{frame}
-
-%------------------------------------------------
-
 \begin{frame}
-\frametitle{Blocks of Highlighted Text}
-\begin{block}{Block 1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-\end{block}
-
-\begin{block}{Block 2}
-Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum quis magna at risus dictum tempor eu vitae velit.
-\end{block}
-
-\begin{block}{Block 3}
-Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci, sed blandit justo nisi ac lacus.
-\end{block}
+	\frametitle{Numeric Results}
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Result}
+	\caption{The overall end-to-end latency of network vs. number of instances.}
+	\label{fig:result}
+\end{figure}
 \end{frame}
-
-%------------------------------------------------
-
 \begin{frame}
-\frametitle{Multiple Columns}
-\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-
-\column{.45\textwidth} % Left column and width
-\textbf{Heading}
-\begin{enumerate}
-\item Statement
-\item Explanation
-\item Example
-\end{enumerate}
-
-\column{.5\textwidth} % Right column and width
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-
-\end{columns}
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{thanks}
+		\label{fig:thanks}
+\end{figure}
 \end{frame}
-
-%------------------------------------------------
-\section{Second Section}
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Table}
-\begin{table}
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
-\begin{verbatim}
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}\end{verbatim}
-\end{example}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Figure}
-Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\~
-
-This statement requires citation \cite{p1}.
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{References}
-\footnotesize{
-\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-\bibitem[Smith, 2012]{p1} John Smith (2012)
-\newblock Title of the publication
-\newblock \emph{Journal Name} 12(3), 45 -- 678.
-\end{thebibliography}
-}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\Huge{\centerline{The End}}
-\end{frame}
-
-%----------------------------------------------------------------------------------------
-
 \end{document} 
