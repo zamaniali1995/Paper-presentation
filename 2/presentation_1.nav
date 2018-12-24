@@ -23,53 +23,67 @@
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\beamer@subsectionpages {11}{11}}
 \headcommand {\beamer@subsectionentry {0}{1}{4}{12}{Fog-to-Cloud}}
-\headcommand {\slideentry {1}{4}{1}{12/13}{Fog-to-Cloud}{0}}
-\headcommand {\beamer@framepages {12}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\beamer@subsectionentry {0}{1}{5}{14}{SDN and NFV}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{1}{6}{14}{Related Work}}
-\headcommand {\beamer@sectionpages {3}{13}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\sectionentry {2}{System Model}{14}{System Model}{0}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{14}{Problem statement}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{14}{Modeling}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{14}{Objective function}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{14}{Constrants}}
-\headcommand {\beamer@sectionpages {14}{13}}
-\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\sectionentry {3}{Numeric Results}{14}{Numeric Results}{0}}
-\headcommand {\slideentry {3}{0}{1}{14/14}{}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {3}{0}{2}{15/15}{}{0}}
+\headcommand {\slideentry {1}{4}{1}{12/14}{Fog-to-Cloud}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\beamer@subsectionpages {12}{14}}
+\headcommand {\beamer@subsectionentry {0}{1}{5}{15}{SDN and NFV}}
+\headcommand {\slideentry {1}{5}{1}{15/15}{SDN and NFV}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {3}{0}{3}{16/16}{}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {3}{0}{4}{17/17}{}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@sectionpages {14}{17}}
-\headcommand {\beamer@subsectionpages {14}{17}}
-\headcommand {\sectionentry {4}{Second Section}{18}{Second Section}{0}}
-\headcommand {\slideentry {4}{0}{1}{18/18}{}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {4}{0}{2}{19/19}{}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {4}{0}{3}{20/20}{}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {4}{0}{4}{21/21}{}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {4}{0}{5}{22/22}{}{0}}
+\headcommand {\slideentry {1}{5}{2}{16/19}{SDN and NFV}{0}}
+\headcommand {\beamer@framepages {16}{19}}
+\headcommand {\slideentry {1}{5}{3}{20/21}{SDN and NFV}{0}}
+\headcommand {\beamer@framepages {20}{21}}
+\headcommand {\beamer@subsectionpages {15}{21}}
+\headcommand {\beamer@subsectionentry {0}{1}{6}{22}{Related Work}}
+\headcommand {\slideentry {1}{6}{1}{22/22}{Related Work}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {4}{0}{6}{23/23}{}{0}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {4}{0}{7}{24/24}{}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@partpages {1}{24}}
-\headcommand {\beamer@subsectionpages {18}{24}}
-\headcommand {\beamer@sectionpages {18}{24}}
-\headcommand {\beamer@documentpages {24}}
-\headcommand {\gdef \inserttotalframenumber {19}}
+\headcommand {\slideentry {1}{6}{2}{23/27}{Related Work}{0}}
+\headcommand {\beamer@framepages {23}{27}}
+\headcommand {\beamer@sectionpages {3}{27}}
+\headcommand {\beamer@subsectionpages {22}{27}}
+\headcommand {\sectionentry {2}{System Model}{28}{System Model}{0}}
+\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{28}{Problem statement}}
+\headcommand {\slideentry {2}{1}{1}{28/37}{Problem statement}{0}}
+\headcommand {\beamer@framepages {28}{37}}
+\headcommand {\beamer@subsectionpages {28}{37}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{38}{Modeling}}
+\headcommand {\slideentry {2}{2}{1}{38/41}{Modeling}{0}}
+\headcommand {\beamer@framepages {38}{41}}
+\headcommand {\beamer@subsectionpages {38}{41}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{42}{Objective function}}
+\headcommand {\beamer@subsectionpages {42}{41}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{42}{Constrants}}
+\headcommand {\beamer@sectionpages {28}{41}}
+\headcommand {\beamer@subsectionpages {42}{41}}
+\headcommand {\sectionentry {3}{Numeric Results}{42}{Numeric Results}{0}}
+\headcommand {\slideentry {3}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {3}{0}{2}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {3}{0}{3}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {3}{0}{4}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@sectionpages {42}{45}}
+\headcommand {\beamer@subsectionpages {42}{45}}
+\headcommand {\sectionentry {4}{Second Section}{46}{Second Section}{0}}
+\headcommand {\slideentry {4}{0}{1}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {4}{0}{2}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {4}{0}{3}{48/48}{}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {4}{0}{4}{49/49}{}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {4}{0}{5}{50/50}{}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {4}{0}{6}{51/51}{}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {4}{0}{7}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@partpages {1}{52}}
+\headcommand {\beamer@subsectionpages {46}{52}}
+\headcommand {\beamer@sectionpages {46}{52}}
+\headcommand {\beamer@documentpages {52}}
+\headcommand {\gdef \inserttotalframenumber {26}}

@@ -191,11 +191,13 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \subsection[Fog-to-Cloud]{Fog-to-Cloud computing system}
 \begin{frame}
 	\begin{itemize}
-	\item Fog-to-Cloud architecture
+	\item Fog-to-Cloud computing system
 	\begin{itemize}
 		\item<1-> {fog and cloud work together}
-		\item<2-> {provide computing, storage, and application services
-			in the IoT domain}
+		\item<2-> {provide computing, storage, and application servicesin the IoT domain}
+		\item<3-> \color{red}{complex management of such a
+			network of distributed fogs}
+			
 	\end{itemize}
 \end{itemize}
 \begin{figure}
@@ -204,20 +206,145 @@ Amirkabir University of Technology \\ % Your institution for the title page
 	\caption{Fog-to-Cloud computing system}
 	\label{fig:fog-to-cloud-computing-system}
 \end{figure}
-
 \end{frame}
-\subsection[SDN and NFV]{Software Defined Network and network function
-	virtualization}
+\subsection[SDN and NFV]{Software Defined Network and network function virtualization}
+\begin{frame}
+	\begin{itemize}
+		\item Software Defined Network(SDN)
+		\begin{itemize}
+			\item<1-> {SDN separates the control and data planes}
+		\end{itemize}
+	\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{sdn2}
+	\caption{Software Defined Network}
+	\label{fig:sdn2}
+\end{figure}
+
+\end{frame}	
+\begin{frame}
+\begin{itemize}
+	\item network function virtualization(NFV)
+	\begin{itemize}
+		\item<1-> {NFV reshapes dedicated hardware functionality}
+		\item<2-> {software modules named virtual network functions (VNFs)}
+		\item<3-> \color{blue}{agile and scalable service placement}
+		\item <4-> \color{blue} {reducing Capital
+			Expenditure (CAPEX) and Operation Expense (OPEX)}
+	\end{itemize}
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.62\linewidth]{Architecture-of-a-software-based-network-with-support-for-network-virtualization-NFV}
+	\caption{SDN based network with support for NFV}
+	\label{fig:architecture-of-a-software-based-network-with-support-for-network-virtualization-nfv}
+\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{itemize}
+		\item {Service Function Chaining(SFC)}	
+		\begin{itemize}
+			\item <1->{specific set of VNFs}
+			\item <2->{joint VNF placement and traffic routing
+				are called SFC mapping}	
+		\end{itemize}
+	\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{sfcexample}
+	\caption{Service Function Chaining}
+	\label{fig:sfcexample}
+\end{figure}
+\end{frame}
 \subsection{Related Work}
-
-
-
+\begin{frame}
+	\begin{table}
+		\begin{tabular}{|c|c|c|c|c|}
+			\toprule
+			\textbf{Author} & \textbf{Year} & \textbf{Mapping} &\textbf{Solution}& \textbf{Objective}\\
+			\midrule
+			Draxler & 2017 & VNFs mapping & heuristic & total data rate \\
+			 & & & and exact & and total latency\\
+			 \hline
+			 Huin &2018 & Placement& exact &total latency\\
+             \hline
+             Masri&2017& Select optimal  &exact &total latency\\
+              & & fog or cloud& & \\
+             \hline
+             Fan&2017&Task scheduling & heuristic & maximizing the  \\
+              & &in a fog-to-cloud & &profits of fog  \\
+               & & computing system & & service provider \\
+               \hline
+               Gupta& 2017& VNFs mapping & ILP  & bandwidth \\
+               & & & column&consumption\\
+               & & & -generation& \\
+               & & &based model &\\
+			\bottomrule
+		\end{tabular}
+		\caption{Related Work}
+	\end{table}
+	
+\end{frame}
+\begin{frame}
+\begin{itemize}{}	
+	\item <1-> { do not
+		consider SFC mapping in the F2C architecture which is critical in the IoT domain}
+	\item <2-> {do not consider the Service Level Agreement(SLA) as a constraint, while in our formulation it is considered}
+	\item <3-> {we propose an ILP solution that provides the
+		exact solution for SFC mapping in the F2C architecture}
+	\item <4-> {in order to minimize total latency of network}
+	\begin{itemize}
+		\item <5-> {the
+			number of instances for each SFC and replicas for each VNF are
+			considered}
+	\end{itemize}
+\end{itemize}
+\end{frame}
 \section{System Model}
-
 \subsection{Problem statement}
+\begin{frame}
+\begin{itemize}
+	\item <1-> {Problem statement}
+\begin{itemize}
+	\item <1-> {network topology}
+	\item <2-> {capacity and latency of links}
+	\item <3-> {computing resources at the fogs and cloud nodes}
+	\item <4-> {traffic
+		flows between two pairs of fog or fogs and cloud requiring a
+		specific SFC}
+	\item <5-> {users’ SLA}	
+	\item <6-> {instances’ number}
+	\item <7-> \color{blue}{placement of VNFs}
+	\item <8-> \color{blue}{corresponding traffic routing}
+	\item <9-> \color{blue}{users’
+		assignment to the SFC instances}
+	\item <10-> \color{red}{minimize overall latency of
+		network}
+\end{itemize}
+\end{itemize}
+\begin{figure}	
+	\includegraphics[width=0.3\linewidth]{problem_bullseye}
+	\label{fig:problembullseye}
+\end{figure}
+\end{frame}
 
 \subsection{Modeling}
-
+\begin{frame}
+	\begin{itemize}
+		\item <1-> {Service Function Chaining (SFC)
+	\begin{equation}
+	[SFC\: c]\quad f_{\sigma_{1}(c)} \to f_{\sigma_{2}(c)} \to \dots \to f_{\sigma_{n_c}(c)}
+	\end{equation}}
+		\item <2-> {generate all configurations of each SFC $c$  $\to$ $\hat{\Gamma}_c$}
+		\item <3-> {aggregation of all configuration of SFCs $\to$ $\hat{\Gamma}$}
+		\item <4-> {Each configuration ($\hat{\gamma}$) of SFC c is characterized by:}
+		\begin{itemize}
+			\item <4-> {Location of VNFs $\to$ $a^{\hat{\gamma}}_{vi}$}
+		\end{itemize}
+	\end{itemize}
+		
+\end{frame}
 \subsection{Objective function}
 
 \subsection{Constrants}
